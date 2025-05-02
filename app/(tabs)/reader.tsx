@@ -1,10 +1,9 @@
-import {ThemedText} from "@/components/ThemedText";
+import {Text} from "react-native";
 
 export default function Reader() {
-
     return (
-      <>
-      <ThemedText>Reader</ThemedText>
-      </>
+        <>
+            <Text>Reader</Text>
+        </>
     );
 }
